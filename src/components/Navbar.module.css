@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(5, 184, 95, 0.829);
+    color: #fff;
+    height: 4rem;
+    padding: 0 5rem 0 5rem;
+}
+.navbar button{
+    padding: 10px;
+    width: 5rem;
+    background-color: rgba(12, 12, 169, 0.639);
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+.navbar button:hover{
+    background-color: rgb(12, 12, 104);
+}

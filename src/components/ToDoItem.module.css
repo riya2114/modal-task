@@ -1,0 +1,27 @@
+.addList{
+    background-color: rgb(43, 134, 65);
+    color: black;
+    width: 50%;
+    margin-top: 2rem;
+    margin-left: 21rem;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    list-style-type: none;
+    border-radius: 0.3rem;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(12, 12, 169, 0.639);
+    padding: 10px;
+}
+.task button{
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}.task button:hover{
+    color: brown;
+}
